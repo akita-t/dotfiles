@@ -12,6 +12,16 @@ return {
     end,
   },
   {
+    "rinx/cmp-skkeleton",
+    dependencies = { "vim-skk/skkeleton", "hrsh7th/nvim-cmp" },
+  },
+  {
+    "hrsh7th/nvim-cmp",
+    opts = function(_, opts)
+      table.insert(opts.sources, { name = "skkeleton" })
+    end,
+  },
+  {
     "delphinus/skkeleton_indicator.nvim",
     dependencies = { "vim-skk/skkeleton" },
     config = true,
