@@ -1,8 +1,8 @@
 return {
-  { "shaunsingh/nord.nvim" },
+  { "cocopon/iceberg.vim" },
   { "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nord",
+      colorscheme = "iceberg",
     },
   },
 }
