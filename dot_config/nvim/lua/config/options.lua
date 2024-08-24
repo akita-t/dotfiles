@@ -5,7 +5,6 @@ vim.g.autoformat = false
 vim.opt.scrolloff = 9999
 vim.opt.fileencoding = "utf-8"
 vim.opt.fileencodings = "utf-8,iso-2022-jp,sjis,euc-jp,cp932,utf-16"
-vim.opt.clipboard = "" -- WSLだと重いので無効化する
 vim.opt.mouse = ""
 vim.opt.wrapscan = true
 vim.opt.incsearch = true
