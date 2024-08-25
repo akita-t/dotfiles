@@ -1,0 +1,4 @@
+phpactor:
+    source:
+        exclude:
+            - 'tests/**'
