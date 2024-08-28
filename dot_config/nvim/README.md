@@ -8,9 +8,7 @@ neovim distribution: [LazyVim](https://github.com/LazyVim/starter)
 - npm 
 - [LazyGit](https://github.com/jesseduffield/lazygit)
 - [LazyDocker](https://github.com/jesseduffield/lazydocker)
-- PHP 8.1+, php-xml for phpactor
 - Deno for skkeleton
-
   ```
   cd /tmp
   curl -Lo "deno.zip" "https://github.com/denoland/deno/releases/latest/download/deno-x86_64-unknown-linux-gnu.zip"
