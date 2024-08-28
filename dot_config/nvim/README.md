@@ -19,4 +19,3 @@ neovim distribution: [LazyVim](https://github.com/LazyVim/starter)
   sudo unzip -d /usr/local/bin /tmp/deno.zip
   deno --version
   ```
-- [ripgrep](https://github.com/BurntSushi/ripgrep/)
