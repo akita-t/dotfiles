@@ -1,1 +1,5 @@
-
+gui:
+  language: 'ja'
+  showIcons: true
+git:
+  disableForcePushing: true
