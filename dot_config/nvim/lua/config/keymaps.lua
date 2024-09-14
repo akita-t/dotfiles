@@ -3,5 +3,3 @@
 -- Add any additional keymaps here
 vim.keymap.set("i", "jk", "<ESC>", { silent = true })
 vim.keymap.set({"i", "c"}, [[<C-j>]], [[<Plug>(skkeleton-toggle)]])
-vim.keymap.set('n', 'hc', '[c', { noremap = true, silent = true })
-vim.keymap.set('n', 'lc', ']c', { noremap = true, silent = true })
