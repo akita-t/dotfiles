@@ -6,10 +6,10 @@ return {
       hijack_netrw_behavior = "open_current",
       use_libuv_file_watcher = true,
       filtered_items = {
-        visible = false,         -- デフォルトで隠されているかどうか
+        visible = false,
         show_hidden_count = true,
-        hide_dotfiles = false,   -- dotfileを隠すかどうか
-        hide_gitignored = false, -- gitignoreされているファイルを隠すかどうか
+        hide_dotfiles = false,
+        hide_gitignored = false,
         hide_by_name = {
           "node_modules",
           "thumbs.db",
@@ -23,3 +23,4 @@ return {
     },
   },
 }
+
