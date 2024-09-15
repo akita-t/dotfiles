@@ -1,5 +1,4 @@
 require 'format'
-require 'keybinds'
 require 'status'
 require 'event'
 
@@ -20,3 +19,4 @@ return {
     window_decorations = 'RESIZE',
     mouse_bindings = require('mousebinds').mouse_bindings,
 }
+

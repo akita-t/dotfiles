@@ -5,8 +5,10 @@ return {
   keys = {
     { key = '"', mods = 'LEADER', action = act.SplitVertical { domain = 'CurrentPaneDomain' } },
     { key = '%', mods = 'LEADER', action = act.SplitHorizontal { domain = 'CurrentPaneDomain' } },
+    { key = 'c', mods = 'LEADER', action = act.SpawnTab 'CurrentPaneDomain' },
     { key = '[', mods = 'LEADER', action = act.ActivateCopyMode },
     { key = 'Z', mods = 'CTRL', action = act.TogglePaneZoomState },
+    { key = ']', mods = 'LEADER', action = act.ActivateTabRelative(1) },
   },
 
   key_tables = {
