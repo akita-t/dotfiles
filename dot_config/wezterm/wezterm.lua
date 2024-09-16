@@ -1,6 +1,5 @@
 require 'format'
 require 'status'
-require 'event'
 
 return {
     default_domain = 'WSL:Ubuntu',
