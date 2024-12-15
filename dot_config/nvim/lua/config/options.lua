@@ -11,3 +11,4 @@ vim.opt.incsearch = true
 vim.opt.hlsearch = true
 vim.opt.showmatch = true
 vim.opt.spelllang = { "en", "cjk" }
+vim.opt.relativenumber = false
