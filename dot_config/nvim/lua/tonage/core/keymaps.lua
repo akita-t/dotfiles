@@ -34,3 +34,8 @@ keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer
 keymap.set("n", "L", ":bnext<CR>", { desc = "Next buffer" })
 -- 前のバッファに移動
 keymap.set("n", "H", ":bprevious<CR>", { desc = "Previous buffer" })
+
+-- 現在のバッファを削除
+keymap.set("n", "<leader>bd", ":bd<CR>", { desc = "Delete Buffer" })
+-- 現在のバッファ以外を削除
+keymap.set("n", "<leader>bo", ":%bd|e#|bd#<CR>", { desc = "Delete Other Buffers" })
