@@ -36,6 +36,6 @@ keymap.set("n", "L", ":bnext<CR>", { desc = "Next buffer" })
 keymap.set("n", "H", ":bprevious<CR>", { desc = "Previous buffer" })
 
 -- 現在のバッファを削除
-keymap.set("n", "<leader>bd", ":bd<CR>", { desc = "Delete Buffer" })
+keymap.set("n", "<leader>bd", ":bd<CR>", { desc = "Delete buffer" })
 -- 現在のバッファ以外を削除
-keymap.set("n", "<leader>bo", ":%bd|e#|bd#<CR>", { desc = "Delete Other Buffers" })
+keymap.set("n", "<leader>bo", ":%bd|e#|bd#<CR>", { desc = "Delete other buffers" })
