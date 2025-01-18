@@ -5,6 +5,5 @@ return {
     require("lualine").setup({
       theme = "catppuccin"
     })
-    local lazy_status = require("lazy.status")
   end,
 }
