@@ -10,10 +10,24 @@ return {
         dark = "mocha",
       },
       integrations = {
+        alpha = true,
         cmp = true,
         gitsigns = true,
+        indent_blankline = {
+          enabled = true,
+          scope_color = "lavender", -- catppuccin color (eg. `lavender`) Default: text
+          colored_indent_levels = false,
+        },
         nvimtree = true,
         treesitter = true,
+        markdown = true,
+        mason = false,
+        nvim_surround = false,
+        telescope = {
+          enabled = true,
+          -- style = "nvchad"
+        },
+        lsp_trouble = false,
       },
     })
 
