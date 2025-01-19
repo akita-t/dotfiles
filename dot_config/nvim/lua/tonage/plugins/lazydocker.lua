@@ -1,11 +1,11 @@
 return 	{
   "crnvl96/lazydocker.nvim",
   event = "VeryLazy",
-  opts = {}, -- automatically calls `require("lazydocker").setup()`
+  opts = {},
   dependencies = {
     "MunifTanjim/nui.nvim",
   },
   keys = {
-    { "<leader>k", "<cmd>LazyDocker<cr>", desc = "Open lazy docker" },
+    { "<leader>lg", "<cmd>LazyDocker<cr>", desc = "Open lazy docker" },
   },
 }
