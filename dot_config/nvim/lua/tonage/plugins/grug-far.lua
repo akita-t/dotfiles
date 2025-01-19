@@ -1,8 +1,5 @@
 return {
   "MagicDuck/grug-far.nvim",
-  config = function()
-    require("grug-far").setup({})
-  end,
   keys = {
     {
       "<leader>sr",
@@ -12,4 +9,7 @@ return {
       desc = "Search and replace",
     },
   },
+  config = function()
+    require("grug-far").setup({})
+  end,
 }
