@@ -42,3 +42,6 @@ keymap.set("n", "H", ":bprevious<CR>", { desc = "Previous buffer" })
 keymap.set("n", "<leader>bd", ":bd<CR>", { desc = "Delete buffer" })
 -- 現在のバッファ以外を削除
 keymap.set("n", "<leader>bo", ":%bd|e#|bd#<CR>", { desc = "Delete other buffers" })
+
+-- oil
+keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
