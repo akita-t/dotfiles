@@ -6,6 +6,6 @@ return 	{
     "MunifTanjim/nui.nvim",
   },
   keys = {
-    { "<leader>lg", "<cmd>LazyDocker<cr>", desc = "Open lazy docker" },
+    { "<leader>ld", "<cmd>LazyDocker<cr>", desc = "Open lazy docker" },
   },
 }
