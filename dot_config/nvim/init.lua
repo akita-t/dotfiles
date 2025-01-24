@@ -1,2 +1,1 @@
-require("tonage.core")
-require("tonage.lazy")
+require("config")
