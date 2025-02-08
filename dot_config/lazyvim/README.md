@@ -1,19 +1,4 @@
-neovim distribution: [LazyVim](https://github.com/LazyVim/starter)
+# 💤 LazyVim
 
-# install
-
-- Neovim
-- Git
-- Node.js
-- npm 
-- [LazyGit](https://github.com/jesseduffield/lazygit)
-- [LazyDocker](https://github.com/jesseduffield/lazydocker)
-- Deno for skkeleton
-  ```
-  cd /tmp
-  curl -Lo "deno.zip" "https://github.com/denoland/deno/releases/latest/download/deno-x86_64-unknown-linux-gnu.zip"
-  sudo apt update
-  sudo apt install unzip
-  sudo unzip -d /usr/local/bin /tmp/deno.zip
-  deno --version
-  ```
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
