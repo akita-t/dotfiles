@@ -2,8 +2,7 @@ require 'format'
 require 'status'
 
 return {
-    default_domain = 'WSL:Ubuntu',
-    color_scheme = 'Catppuccin Latte',
+    color_scheme = 'tokyonight_day',
     window_background_opacity = 0.93,
     font = require("wezterm").font("Firge35Nerd Console"),
     font_size = 12.0,
