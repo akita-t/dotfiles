@@ -13,8 +13,6 @@ return {
 
     -- set keymaps
     local keymap = vim.keymap
-
-    keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
-    keymap.set("n", "<leader>-", "<CMD>Oil --float<CR>", { desc = "Open parent directory in floating window" })
+    keymap.set("n", "-", "<CMD>Oil --float<CR>", { desc = "Open parent directory" })
   end
 }
