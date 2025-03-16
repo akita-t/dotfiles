@@ -10,3 +10,6 @@ vim.opt.scrolloff = 9999
 
 -- set background to light
 vim.opt.background = 'light'
+
+-- 末尾に空行追加を無効化
+vim.opt.fixendofline = false
