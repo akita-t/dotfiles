@@ -3,7 +3,7 @@ require 'status'
 
 return {
     color_scheme = 'tokyonight',
-    window_background_opacity = 0.93,
+    window_background_opacity = 1,
     font = require("wezterm").font("Firge35Nerd Console"),
     font_size = 12.0,
     window_frame = {
